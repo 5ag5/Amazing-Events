@@ -3,6 +3,24 @@
     padding:0;
     box-sizing: border-box;
 }
+header{
+    height: 40vh;
+}
+
+ main{
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+footer{
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    background-color: bisque;
+    align-items: center;
+}
 
 .logoCompany{
     height: 35%;
@@ -30,8 +48,8 @@
     background-color: white;
     border: 1px solid gray;
     align-content: center;
-    width: 10%;
-    height: 5%;
+    width: 15%;
+    height: 3%;
 }
 
 #navbarVarId{
@@ -55,6 +73,7 @@
 #carouselExample2{
     height: 30vh;
     width: 100%;
+    background-color: rgb(138, 138, 68);
 }
 
 #idCine,
@@ -100,3 +119,25 @@
     align-items: center;
 }
 
+.contenedorCardsHome{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+img{
+    object-fit: contain;
+}
+
+.divLogos{
+    display: flex;
+    flex-direction: row;
+    height: 5vh;
+    width: 100vw;
+}
+
+#cohort44-45{
+    width: 10%;
+    margin: 0;;
+}
