@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.logoCompany{
+    height: 35%;
+    width:10%;   
+}
+
+/* .nav-link_disabled{
+    color: black;
+} */
+
+.container-fluid{
+    background-color: rgba(128, 128, 128, 0.438);
+}
+
+#navbarNav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#buttonNav1,
+#buttonNav2,
+#buttonNav3,
+#buttonNav4,
+#buttonNav5{
+    background-color: white;
+    border: 1px solid gray;
+    align-content: center;
+    width: 10%;
+    height: 5%;
+}
+
+#navbarVarId{
+    width:51vw;
+}
+
+#navContainer1{
+    height: 7vh;
+}
+
+.tituloNav{
+    height: 7vh;
+}
+#tituloNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:3%;
+}
+
+#carouselExample2{
+    height: 30vh;
+    width: 100%;
+}
+
+#idCine,
+#bibliotecaIMG,
+#conciertImg{
+    height:30vh;
+    width:20%;
+}
+
+.ChecksYBusqueda{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ChecksYBusqueda2{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    width:60%;
+} 
+
+.searchAndTxt{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    width:40%;
+}
+
+#textSearch{
+    height: 20%;
+    width:40%;
+}
+#botonBuscarTxt{
+    height: 20%;
+}
+
+#botonBuscarTxt2{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
