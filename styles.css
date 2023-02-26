@@ -27,10 +27,6 @@ footer{
     width:10%;   
 }
 
-/* .nav-link_disabled{
-    color: black;
-} */
-
 .container-fluid{
     background-color: rgba(128, 128, 128, 0.438);
 }
@@ -139,5 +135,38 @@ img{
 
 #cohort44-45{
     width: 10%;
-    margin: 0;;
+    margin: 0;
+}
+
+.contedorfomulario{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+#formularioContacto{
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;;
+    justify-content: center;
+   /* margin-left: 30rem; */
+}
+
+#txtMessage
+{
+    height: 25rem;
+    width: 50rem;
+}
+
+
+#txtName, 
+#txtEmail{
+    width: 50rem;
+}
+label{
+    font-size: larger;
 }
