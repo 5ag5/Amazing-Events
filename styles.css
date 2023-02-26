@@ -4,22 +4,26 @@
     box-sizing: border-box;
 }
 header{
-    height: 40vh;
+    min-height: 40vh;
 }
 
  main{
-    height: 55vh;
+    min-height: 55vh;
     display: flex;
     flex-direction: column;
     align-content: space-around;
 }
 
 footer{
-    height: 5vh;
+    min-height: 5vh;
     display: flex;
     flex-direction: row;
     background-color: bisque;
     align-items: center;
+}
+
+h5{
+    object-fit: contain;
 }
 
 .logoCompany{
@@ -34,6 +38,7 @@ footer{
 #navbarNav{
     display: flex;
     justify-content: flex-end;
+    flex-wrap: wrap;
 }
 
 #buttonNav1,
@@ -45,7 +50,7 @@ footer{
     border: 1px solid gray;
     align-content: center;
     width: 15%;
-    height: 3%;
+    height: 2%;
 }
 
 #navbarVarId{
@@ -53,7 +58,7 @@ footer{
 }
 
 #navContainer1{
-    height: 7vh;
+    min-height: 7vh;
 }
 
 .tituloNav{
@@ -83,6 +88,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .ChecksYBusqueda2{
@@ -91,7 +97,12 @@ footer{
     justify-content:space-around;
     align-items: center;
     width:60%;
+    flex-wrap: wrap;
 } 
+
+a{
+    font-stretch: normal;
+}
 
 .searchAndTxt{
     display: flex;
@@ -99,6 +110,7 @@ footer{
     justify-content:center;
     align-items: center;
     width:40%;
+    flex-wrap: wrap;
 }
 
 #textSearch{
@@ -119,12 +131,14 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 3rem;
+    flex-wrap: wrap;
 }
 
 img{
     object-fit: contain;
 }
+
+
 
 .divLogos{
     display: flex;
@@ -134,13 +148,14 @@ img{
 }
 
 #cohort44-45{
-    width: 10%;
+    width: 10vw;
+    height: 5vh;
     margin: 0;
 }
 
 .contedorfomulario{
     width:100vw;
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -169,4 +184,31 @@ img{
 }
 label{
     font-size: larger;
+}
+
+#cardPastEvents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55vh;
+    width: 100vw;
+}
+
+#cardMarathon{
+    width: 60%;
+}
+
+#contenedorCard{
+    height: 100%;
+    width: 100%;
+}
+
+tr, td{
+    border: 1px solid black;
+    width: 20vh;
+}
+
+th{
+    border: 1px solid black;
+    background-color: gray;
 }
