@@ -61,6 +61,18 @@ h5{
     min-height: 7vh;
 }
 
+.butonPrice{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+ align-content: center;
+}
+
+#Price{
+    margin-top: 5px;
+}
+
 .tituloNav{
     height: 7vh;
 }
@@ -156,7 +168,7 @@ img{
 #cohort44-45{
     width: 10vw;
     height: 5vh;
-    margin-top: 2rem;
+    padding: 1rem;
     text-align: center;
 }
 
